@@ -4,6 +4,7 @@ Storage adaptor to use `react-native-default-preference` as a storage engine for
 
 ```
 yarn add redux-persist-default-preference
+npm install redux-persist-default-preference
 ```
 
 For iOS, you need to also run:
@@ -16,7 +17,7 @@ cd ios && pod install
 
 ```
 import { persistStore, persistReducer } from 'redux-persist';
-import DefaultPreferenceStorage from 'redux-persist-fs-storage';
+import DefaultPreferenceStorage from 'redux-persist-default-preference';
 
 const persistConfig = {
   key: 'root',
@@ -32,5 +33,5 @@ const persistor = persistStore(store);
 You can also define a name for the storage. It is used as the key for storing data in `UserDefaults` (iOS) and `SharedPreferences` (Android)
 
 ```
-storage: DefaultPreferenceStorage("customName"),
+DefaultPreferenceStorage("customName")
 ```
