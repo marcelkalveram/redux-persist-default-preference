@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/redux-persist-default-preference.png)](https://badge.fury.io/js/redux-persist-default-preference)
+
 Storage adaptor to use `react-native-default-preference` as a storage engine for `redux-persist`.
 
 ## Install
