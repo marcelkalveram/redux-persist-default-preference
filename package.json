@@ -1,9 +1,9 @@
 {
   "name": "redux-persist-default-preference",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "redux-persist storage engine for react-native-default-preference",
   "author": "Marcel Kalveram",
-  "repository": "",
+  "repository": "https://github.com/marcelkalveram/redux-persist-default-preference.git",
   "license": "MIT",
   "main": "index.js",
   "files": [
