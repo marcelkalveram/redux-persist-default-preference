@@ -13,6 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "flow-bin": "^0.124.0",
     "react-native-default-preference": "^1.4.2"
   }
 }
